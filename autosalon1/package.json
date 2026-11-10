@@ -1,0 +1,16 @@
+{
+  "name": "autosalon",
+  "version": "1.0.0",
+  "description": "Автосалон: марки машин, комплектація, клієнт, продаж, додаткові опції",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^4.22.3",
+    "express-session": "^1.19.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
